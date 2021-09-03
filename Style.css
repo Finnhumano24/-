@@ -28,6 +28,7 @@ nav{
 #frame{
     margin-left: 17%;
     margin-top: 6%;
+    overflow:hidden;
 }
 a{
     text-decoration: none;
