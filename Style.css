@@ -15,7 +15,10 @@
 #div2{
     text-align: left;
 }
-
+.list-of-animes{
+    margin-top: 10%;
+    margin-left: 20%;
+}
 header a{
     margin-left: 3%;
     font-size: 110%;
@@ -31,4 +34,42 @@ nav{
 a{
     text-decoration: none;
     color: black;
+}
+#Crear{
+    margin-left: 30%;
+    margin-top: 4%;
+    width: 38%;
+    border: 1px solid black;
+    background-color: white;
+    padding-left: 4%;
+}
+.EDRW{
+    text-align: left;
+    background-color: orange;
+    padding-left: 10%;
+    padding-bottom: 1%;
+    padding-top: 0%;
+}
+#CREAR{
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size:260%;
+}
+#CREAR1{
+    margin-top: 2%;
+    font-weight: normal;
+    color: #8D938C;
+}
+.create{
+    font-family: sans-serif;
+    color: #616361;
+    font-size: 109%;
+}
+.inpus{
+    border: 1px solid rgb(107, 104, 104);
+    height: 50px;
+    width: 150%;
+    margin-top: 2%;
+    font-size: 100%;
+    border: 1px solid #595A59;
 }
