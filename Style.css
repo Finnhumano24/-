@@ -23,23 +23,30 @@ nav{
 /* esto ya es para abajo */
 
 section{
-    height: 30pc;
-    margin: 20px;
+    width: 15pc;
+    height: 47pc;
+    margin-top: 20px;
+    margin-left: 12px;
     display: inline-block;
+    box-shadow: 2px 2px 10px orange;
     background-color: orange;
 }
 .img1{
     width: 210px;
+    margin-left: 6.2%;
     position: relative;
     padding-top: 13px;
     display: inline-block;
 }
-#cloro{
+article{
+    margin-top: 5%;
+}
+.cloro{
     text-decoration: none;
     font-family: sans-serif;
     font-size: 12px;
     color: white;
     position: absolute;
     margin-top: 89px;
-    left: 30px;
+    left: 40px;
 }
