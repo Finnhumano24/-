@@ -8,7 +8,7 @@
 h2{
     display: inline;
 }
-nav{
+#lolo{
     float: right;
     display: inline;
     margin-top: 8px;
@@ -22,7 +22,7 @@ nav{
 }
 /* esto ya es para abajo */
 
-section{
+.section-noticia{
     width: 15pc;
     height: 47pc;
     margin-top: 20px;
@@ -38,7 +38,7 @@ section{
     padding-top: 13px;
     display: inline-block;
 }
-article{
+.article-noticia{
     margin-top: 5%;
 }
 .cloro{
@@ -49,4 +49,27 @@ article{
     position: absolute;
     margin-top: 89px;
     left: 37px;
+}
+/* seccion de animes */ 
+
+#img-animep{
+    width: 760px;
+    position: relative;
+}
+#section-anime{
+    float:right;
+    margin: 50px 125px 0px 0px;
+} 
+#flechaL{
+    width: 80px;
+    margin-top: 15%;
+    right: 70.4%;
+    cursor: pointer;
+    position: absolute;
+}
+#flechaR{
+    width: 86px;
+    margin-top: 15%;
+    cursor: pointer;
+    position: absolute;
 }
