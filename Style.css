@@ -20,6 +20,9 @@ h2{
     font-family: sans-serif;
     margin-right: 10px;
 }
+.total:hover{
+    color: rgb(255, 94, 0);
+}
 /* esto ya es para abajo */
 
 .section-noticia{
@@ -53,14 +56,19 @@ h2{
 /* seccion de animes */ 
 
 #img-animep{
+    cursor: pointer;
     width: 760px;
     position: relative;
 }
+/* #img-animep:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0,0.3);
+} */
 #section-anime{
     float:right;
     margin: 50px 125px 0px 0px;
 } 
 #flechaL{
+    display: none;
     width: 80px;
     margin-top: 15%;
     right: 70.4%;
