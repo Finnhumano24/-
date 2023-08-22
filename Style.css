@@ -1,9 +1,12 @@
 .EDR{
     padding: 27px 100px 10PX 20PX;
-    font-family: sans-serif;
     background-color: orange;
+    font-family: 'Comic Sans MS';
     box-shadow: 2px 2px 10px orange;
     height: 40px;
+}
+.fn{
+    margin-left: 2%;
 }
 h2{
     display: inline;
@@ -17,67 +20,15 @@ h2{
     text-decoration: none;
     color: #000;
     font-size: 18px;
-    font-family: sans-serif;
     margin-right: 10px;
 }
 .total:hover{
     color: rgb(255, 94, 0);
 }
+@media only screen and (max-width: 767px) {
+
+    .total{
+        display: none;
+    }
+}
 /* esto ya es para abajo */
-
-.section-noticia{
-    width: 15pc;
-    height: 47pc;
-    margin-top: 20px;
-    margin-left: 12px;
-    display: inline-block;
-    box-shadow: 2px 2px 10px orange;
-    background-color: orange;
-}
-.img1{
-    width: 210px;
-    margin-left: 6.2%;
-    position: relative;
-    padding-top: 13px;
-    display: inline-block;
-}
-.article-noticia{
-    margin-top: 5%;
-}
-.cloro{
-    text-decoration: none;
-    font-family: sans-serif;
-    font-size: 12px;
-    color: #091024;
-    position: absolute;
-    margin-top: 89px;
-    left: 37px;
-}
-/* seccion de animes */ 
-
-#img-animep{
-    cursor: pointer;
-    width: 760px;
-    position: relative;
-}
-/* #img-animep:hover{
-    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0,0.3);
-} */
-#section-anime{
-    float:right;
-    margin: 50px 125px 0px 0px;
-} 
-#flechaL{
-    display: none;
-    width: 80px;
-    margin-top: 15%;
-    right: 70.4%;
-    cursor: pointer;
-    position: absolute;
-}
-#flechaR{
-    width: 86px;
-    margin-top: 15%;
-    cursor: pointer;
-    position: absolute;
-}
