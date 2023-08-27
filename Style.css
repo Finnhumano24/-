@@ -1,8 +1,12 @@
 .EDR{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
     padding: 27px 100px 10PX 20PX;
-    background-color: orange;
+    background-color: #2d976f;
     font-family: 'Comic Sans MS';
-    box-shadow: 2px 2px 10px orange;
+    box-shadow: 2px 2px 10px #2d976f;
     height: 40px;
 }
 .fn{
@@ -10,6 +14,7 @@
 }
 h2{
     display: inline;
+    color: white;
 }
 #lolo{
     float: right;
@@ -18,7 +23,7 @@ h2{
 }
 .total{
     text-decoration: none;
-    color: #000;
+    color: white;
     font-size: 18px;
     margin-right: 10px;
 }
